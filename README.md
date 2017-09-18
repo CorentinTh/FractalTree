@@ -8,7 +8,7 @@ A javascript program that draw a fractal tree using recursive functions (functio
 [Live demo](http://divers.corentin-thomasset.fr/fractal-tree/index.html)
 
 ## Recusive function
-Here is the recursive function
+Here is the recursive function: 
 ```javascript
 function drawBranch(lenght) {
     // We draw the branch
@@ -20,14 +20,14 @@ function drawBranch(lenght) {
 
     // To avoid infinite repetitions, we add new branches only if their length if greater than 4px
     if (lenght > 4) {
-        // We rotate the orthonormal reference clockwise ...
+        // We rotate the orthonormal reference clockwise...
         ctx.save();
         ctx.rotate(angle);
         // ... and call the function with a reduced length
         drawBranch(lenght * reducer);
         ctx.restore();
 
-        // We rotate the orthonormal reference anti-clockwise ...
+        // We rotate the orthonormal reference anti-clockwise...
         ctx.save();
         ctx.rotate(-angle);
         // ... and call the function with a reduced length
