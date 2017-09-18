@@ -51,4 +51,4 @@ It permits to set the quotient of reduction at each generation of a branch.
 ```Javascript
 length_of_a_branch = length * reducer * number_of_generation 
 ```
-So, the bigger the reducer the more branches you have (and more time it get to render)
+So, the bigger the reducer the more branches you have (and more time it get to render).
