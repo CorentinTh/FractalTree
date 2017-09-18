@@ -51,3 +51,4 @@ It permits to set the quotient of reduction at each generation of a branch.
 ```
 Length of a branch = length * reducer * number of generation 
 ```
+So, the bigger the reducer the more branches you have (and more time it get to render)
